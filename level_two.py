@@ -1,7 +1,7 @@
 import random
 import time
 
-number = int(input("Enter a number between 1 and 10. I'll try to guess it."))
+number = int(input("Enter a number between 1 and 10. I'll try to guess it in 3 tries."))
 
 number_of_guesses = 0
 
