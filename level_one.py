@@ -4,7 +4,7 @@ number = random.randint(1, 10)
 
 number_of_guesses = 0
 
-print('I am thinking of a number between 1 and 10.')
+print('I am thinking of a number between 1 and 10. You get 3 guesses.')
 
 while number_of_guesses < 3:
     guess = int(input())
