@@ -1,4 +1,3 @@
-import random
 import time
 
 number = int(input("Enter a number between 1 and 10. I'll try to guess it.  "))
@@ -12,7 +11,7 @@ low = 1
 guess = 0
 
 while guess != number:
-    guess = random.randint(low, high)
+    guess = (low + high) // 2
     number_of_guesses += 1
     if guess > number:
         high = guess - 1
