@@ -11,9 +11,9 @@ while number_of_guesses < 3:
     number_of_guesses += 1
     if guess < number:
         print('Your guess is too low.')
-    if guess > number:
+    elif guess > number:
         print('Your guess is too high.')
-    if guess == number:
+    elif guess == number:
         break
 
 if guess == number:
