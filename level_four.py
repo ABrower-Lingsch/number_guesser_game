@@ -1,7 +1,8 @@
 import random
 import time
 
-option = int(input('Enter "1" if you would like to guess the number. Enter "2" if you want me to guess the number. Enter any other key to exit.  '))
+option = int(input('Enter "1" if you would like to guess the number. Enter "2" if you want me to guess the number. Enter any other number to exit.  '))
+
 
 if option == 1:
     number = random.randint(1, 10)
@@ -51,6 +52,3 @@ elif option == 2:
     else:
         print(guess)
         print('I guessed it right in', number_of_guesses, 'tries!')
-
-elif option != 1 & option != 2:
-    print('Please enter "1" or "2".')
